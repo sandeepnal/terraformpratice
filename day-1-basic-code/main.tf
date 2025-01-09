@@ -3,6 +3,6 @@ resource "aws_instance" "dev" {
     instance_type = var.type
     key_name = var.keyname
     tags = {
-      Name = "dev"
+      Name = ""
     }
 }
